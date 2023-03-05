@@ -1,0 +1,8 @@
+body{
+    background: #ddd;
+}
+.container{
+    width: 1280px;
+    height: 100%;
+    margin: auto;
+}
