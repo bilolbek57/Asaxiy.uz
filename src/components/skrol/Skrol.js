@@ -1,7 +1,11 @@
 import React from 'react'
 import "./Skrol.css"
-
+import {useLocation} from "react-router-dom"
 function Skrol() {
+    const {pathname} = useLocation()
+    if(pathname.includes("admin")){
+      return <></>
+    } 
     const SrolMap = [
         {
             img:"https://assets.asaxiy.uz/brand/webp//5e15c4ec85cf2.webp"

@@ -1,0 +1,53 @@
+.admin{
+    height: 100vh;
+    display: flex;
+    color: #fff;
+    background: #fff;
+}
+.admin__sidebar{
+    width: 300px;
+    min-width: 300px;
+    height: 100%;
+    background: url("https://i.pinimg.com/564x/7e/5a/e2/7e5ae24f3b72ca5b64cca4a8f2aa1ede.jpg");
+    padding: 30px;
+}
+.admin__content{
+    width: 100%;
+    padding: 30px;
+    overflow: auto;
+    border: 1px solid red;
+}
+.asaxiyy__logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.admin__collection{
+    width: 100%;
+}
+.admin__item{
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+    .admin__icon{
+        display: flex;
+        gap: 20px;
+        font-size: 30px;
+        justify-content: center;
+        margin-top: 100px;
+        align-items: center;
+    }
+.admin__icon svg{
+color: #fff;
+}
+.admin__item a{
+    color: #fff;
+    display: flex;
+    gap: 20px;
+}

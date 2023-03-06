@@ -10,8 +10,12 @@ import {BsInstagram} from "react-icons/bs"
 import {BsYoutube} from "react-icons/bs"
 import {FaRss} from "react-icons/fa"
 
-
+import { useLocation } from 'react-router-dom'
 function Footer() {
+    const {pathname} = useLocation()
+    if(pathname.includes("admin")){
+      return <></>
+    } 
   return (
     <div className='footer'>
         <div className="footer__verh">
@@ -59,8 +63,8 @@ function Footer() {
             <div className="footer__aloqa">
                 <h2>Biz bilan aloqa</h2>
                 <a href=""><AiOutlineMobile/>938155857</a>
-                <p><MdOutgoingMail/>info@asaxiy.uz</p>
-                <p><CiLocationOn/>Chilonzor 3, Toshkent</p>
+                <p><MdOutgoingMail/>info@asaxiy.uz</p>      
+                {/* <p><CiLocationOn/>Chilonzor 3, Toshkent</p> */}
             </div>
             <div className="footer__tarmoq">
                 <h2>Biz ijtimoiy tarmoqlarda :</h2>

@@ -1,0 +1,27 @@
+.trek{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: #fff;
+}
+.trek__righ{
+    width: 400px;
+    height: 400px;
+    line-height: 3;
+
+}
+.trek__left{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+.trek__righ input{
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+}
